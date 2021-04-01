@@ -20,11 +20,8 @@
 </head>
 <body>
     <h1 class="m-5">Trouver la personne dont vous avez besoin</h1>    
-
-    
-    
-        <input type="text" class="search" id="search" name="search"  />
-    
+        <label class="mx-5">recherche:</label><br>
+        <input type="text" class="search mx-5 mb-5" id="search" name="search"  />
     
     <div class="container-fluid">
             <div class="row">

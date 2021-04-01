@@ -13,6 +13,7 @@ document.getElementById('search').addEventListener('keyup', function(e) {
       } else {
         document.style.display = 'none';
       }
+      
     });
   });
 
@@ -131,9 +132,11 @@ const initMap= async function(){
         
     })
     map.center();
+    
 }
 if($map !==null){
     initMap();
+    
 }
 
 
